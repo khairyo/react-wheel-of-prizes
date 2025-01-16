@@ -1,13 +1,14 @@
 # react-wheel-of-prizes
 
 > It is a wheel of prizes game build using reactjs
+> Originally by [shekharramola](https://github.com/shekharramola), this version has been adapted to allow React 17 and above
 
 [![NPM](https://img.shields.io/npm/v/react-wheel-of-prizes.svg)](https://www.npmjs.com/package/react-wheel-of-prizes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-wheel-of-prizes
+npm install --save react-wheel-of-prizes-react18-compatible
 ```
 
 Before spinning, this is how it will look
@@ -38,14 +39,13 @@ Wheel of fortune will run only once by default but if you want to run it more th
 | size           | window.innerWidth |      Yes |
 
 ## Usage
+This is a sample React component.
 
-```jsx
-import React, { Component } from 'react'
+```tsx
+import React from 'react';
+import WheelComponent from 'react-wheel-of-prizes-react18-compatible';
 
-import WheelComponent from 'react-wheel-of-prizes'
-import 'react-wheel-of-prizes/dist/index.css'
-
-const App = () => {
+const SpinWheelComponent = () => {
   const segments = [
     'better luck next time',
     'won 70',
@@ -66,7 +66,7 @@ const App = () => {
     '#EC3F3F',
     '#FF9000'
   ]
-  const onFinished = (winner) => {
+  const onFinished = (winner: string) => {
     console.log(winner)
   }
   return (
@@ -83,9 +83,11 @@ const App = () => {
       upDuration={100}
       downDuration={1000}
       fontFamily='Arial'
-    />
-  )
-}
+      />
+  );  
+};
+
+export default SpinWheelComponent;
 ```
 
 ## License
