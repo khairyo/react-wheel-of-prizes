@@ -1,7 +1,6 @@
 # react-wheel-of-prizes
 
-> It is a wheel of prizes game build using reactjs
-> Originally by [shekharramola](https://github.com/shekharramola), this version has been adapted to allow React 17 and above
+> It is a wheel of prizes game built using react. Originally by [shekharramola](https://github.com/shekharramola), this version has been adapted to allow React 17 and above
 
 [![NPM](https://img.shields.io/npm/v/react-wheel-of-prizes.svg)](https://www.npmjs.com/package/react-wheel-of-prizes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

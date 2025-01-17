@@ -1,10 +1,10 @@
 {
   "name": "react-wheel-of-prizes-react18-compatible",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "It is a wheel of prizes game build using reactjs",
-  "author": "shekharramola",
+  "author": "khairyo",
   "license": "GNU General Public License v3.0",
-  "repository": "shekharramola/react-wheel-of-prizes",
+  "repository": "khairyo/react-wheel-of-prizes-react18-compatible",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
